@@ -10165,9 +10165,9 @@ var operators_1 = require("rxjs/operators");
 var randomLetter = function randomLetter() {
   return String.fromCharCode(Math.random() * ("z".charCodeAt(0) - "a".charCodeAt(0)) + "a".charCodeAt(0));
 };
-var levelChangeThreshold = 20;
+var levelChangeThreshold = 10;
 var speedAdjust = 50;
-var endThreshold = 10;
+var endThreshold = 15;
 var gameWidth = 30;
 var intervalSubject = new rxjs_1.BehaviorSubject(500);
 var letters$ = intervalSubject.pipe((0, operators_1.switchMap)(function (i) {
@@ -10240,7 +10240,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61000" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51052" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

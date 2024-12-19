@@ -7,9 +7,9 @@ const randomLetter = () =>
   String.fromCharCode(
     Math.random() * ("z".charCodeAt(0) - "a".charCodeAt(0)) + "a".charCodeAt(0)
   );
-const levelChangeThreshold = 20;
+const levelChangeThreshold = 10;
 const speedAdjust = 50;
-const endThreshold = 10;
+const endThreshold = 15;
 const gameWidth = 30;
 
 const intervalSubject = new BehaviorSubject(500);

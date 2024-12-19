@@ -1,2 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 20px;
+  font-family: "Funnel Display", serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f4faff;
+  color: #535657;
+  font-size: 1.5em
+}
+
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
